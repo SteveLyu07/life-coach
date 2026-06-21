@@ -1,0 +1,4 @@
+interface:
+  display_name: "复杂问题"
+  short_description: "拆解混乱问题并设计小实验"
+  default_prompt: "帮我把这个复杂问题拆清楚，并找到下一步最小实验。"

@@ -1,0 +1,17 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local/private notes
+.private/
+local/
+*.local.md
+.env
+.env.*
+
+# Generated or temporary files
+*.log
+.tmp/
+tmp/

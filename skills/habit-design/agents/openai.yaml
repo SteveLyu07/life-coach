@@ -1,0 +1,4 @@
+interface:
+  display_name: "习惯设计"
+  short_description: "设计可持续的小习惯和恢复规则"
+  default_prompt: "帮我设计一个适合真实生活的习惯方案。"

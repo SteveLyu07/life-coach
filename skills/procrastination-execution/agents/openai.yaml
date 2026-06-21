@@ -1,0 +1,4 @@
+interface:
+  display_name: "拖延应对"
+  short_description: "从拖延和卡住进入可执行下一步"
+  default_prompt: "帮我处理现在的拖延，把任务缩成能开始的一步。"

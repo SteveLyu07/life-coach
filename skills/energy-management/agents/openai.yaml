@@ -1,0 +1,4 @@
+interface:
+  display_name: "精力管理"
+  short_description: "围绕精力、恢复和低容量状态做计划"
+  default_prompt: "帮我根据今天的精力状态安排一个现实可执行的计划。"

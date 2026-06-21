@@ -1,0 +1,4 @@
+interface:
+  display_name: "人生愿景"
+  short_description: "澄清价值观、长期方向和人生实验"
+  default_prompt: "帮我澄清当前的人生愿景，并把它转成可验证的小方向。"

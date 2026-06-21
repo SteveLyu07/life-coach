@@ -1,0 +1,4 @@
+interface:
+  display_name: "复盘"
+  short_description: "复盘经历、提炼学习并设计下一轮调整"
+  default_prompt: "帮我复盘这段经历，找出有效做法和下一步调整。"
