@@ -16,6 +16,9 @@ local/
 .tmp/
 tmp/
 
+# Private user data directory (copy templates here, do not commit)
+life-coach-data/
+
 # Local runtime data
 life-coach-data/
 .life-coach-data/

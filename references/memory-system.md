@@ -47,6 +47,33 @@ life-coach-data/
 
 公开仓库不应包含真实用户数据。若在仓库内创建 `life-coach-data/`，应确保它被 `.gitignore` 排除。
 
+## 推荐模板
+
+本仓库在 `templates/` 目录下提供可复制的空模板。你可以把它们复制到 `life-coach-data/` 或其他私有位置后填写。请勿直接在公开仓库的 `templates/` 中写入真实用户数据。
+
+| 记录类型 | 模板路径 |
+|---|---|
+| 用户画像 | [`templates/profile/user.md`](../templates/profile/user.md) |
+| 人生罗盘 | [`templates/profile/life-compass.md`](../templates/profile/life-compass.md) |
+| 精力画像 | [`templates/profile/energy-profile.md`](../templates/profile/energy-profile.md) |
+| 日计划 | [`templates/planning/daily-plan.md`](../templates/planning/daily-plan.md) |
+| 周计划 | [`templates/planning/weekly-plan.md`](../templates/planning/weekly-plan.md) |
+| 项目清单 | [`templates/projects/projects.md`](../templates/projects/projects.md) |
+| 习惯追踪 | [`templates/habits/habit-tracker.md`](../templates/habits/habit-tracker.md) |
+| 复盘记录 | [`templates/reviews/review-log.md`](../templates/reviews/review-log.md) |
+| 工具与数据来源 | [`templates/integrations/tools.md`](../templates/integrations/tools.md) |
+
+### 模板使用原则
+
+1. **先复制，再填写**：把模板复制到私有数据目录，不在公开仓库中写入真实信息。
+2. **事实、假设、洞察、规律分开**：
+   - **事实**：用户明确说过，或工具中已经存在的数据。
+   - **假设**：为了推进计划做出的临时估计，必须标注“暂时假设”。
+   - **洞察**：经过对话确认的理解。
+   - **规律**：多次复盘后稳定出现的模式，才能写入长期记忆。
+3. **写入前确认**：人生价值、身份描述、敏感信息、外部工具操作前，先向用户确认。
+4. **不要记录**：未经确认的诊断、人格标签、病理判断、他人隐私细节、一次性情绪宣泄、密码/证件/银行卡等。
+
 ## 启动时读取什么
 
 不要为了读取而读取。简单问题可以直接回答；涉及延续上下文、计划、复盘、习惯或日程时，再读取对应记录。
