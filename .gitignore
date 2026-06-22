@@ -15,3 +15,8 @@ local/
 *.log
 .tmp/
 tmp/
+
+# Local runtime data
+life-coach-data/
+.life-coach-data/
+memory/
