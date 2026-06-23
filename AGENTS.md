@@ -91,7 +91,7 @@
 
 ## 记忆与记录系统
 
-Life Coach 可以使用可选的本地记录层保存用户长期上下文。详细规则见 `references/memory-system.md`。
+Life Coach 可以使用可选的本地记录层保存用户长期上下文。详细规则见 `references/memory-system.md`。默认推荐把 `templates/` 复制到私有的 `life-coach-data/`，再在其中记录真实用户数据。
 
 在以下场景中，应优先读取或更新记录系统：
 
@@ -107,6 +107,16 @@ Life Coach 可以使用可选的本地记录层保存用户长期上下文。详
 - 不把单次对话里的推测写成长期事实。
 - 敏感信息、长期画像、人生愿景和外部工具写入前先确认。
 - 工具不可用时，先用本地 Markdown 草案降级，不阻塞教练过程。
+
+最低执行协议：
+
+1. 做日程/计划前，优先读取 `profile/user.md`、`planning/weekly-plan.md`、`planning/daily-plan.md`、`projects/projects.md` 和外部待办/日历摘要。
+2. 处理拖延或启动困难前，优先读取 `profile/user.md` 中的执行线索、最近复盘和相关日计划；只有需要跨文件综合判断时，再读取 `memory/long-term.md`。
+3. 讨论愿景或阶段主题前，优先读取 `profile/life-compass.md`。
+4. 每次计划、拖延应对、习惯设计或复盘收尾时，做一次“是否需要记录”的检查。
+5. 作息、固定承诺、稳定角色、通用偏好、精力线索和执行线索默认写入 `profile/user.md`；项目与承诺写入 `projects/projects.md`；日/周实际写入 planning 或 daily memory；跨文件综合洞察和通用策略写入 `memory/long-term.md`。
+6. 不要一开始就创建很多专项画像。只有某类记录持续增长、被频繁单独读取，或用户明确希望拆分时，才建议拆出新文件，例如 `profile/energy-profile.md`。
+7. `profile/user.md` 不是所有记忆的总仓库，`memory/long-term.md` 也不是第二份 profile。能归入现有文件的信息只写一个主位置；`long-term` 最多保留索引。
 
 ## 跨 Skill 转交
 

@@ -22,4 +22,4 @@ life-coach-data/
 # Local runtime data
 life-coach-data/
 .life-coach-data/
-memory/
+/memory/
