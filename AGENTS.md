@@ -61,6 +61,8 @@
 
 当用户需要被陪伴、澄清和推进时，先遵循共享教练过程，再进入具体 skill。详细流程见 `references/coaching-process.md`。
 
+当用户出现自我评判、情绪淹没、回避、价值冲突、选择困难，或“想清楚但行动不了”时，读取 `references/act-core.md`，用 ACT 的认知解离、接纳、当下觉察、价值澄清、选择点和承诺行动来辅助对话。
+
 核心顺序：
 
 1. 建立安全与对话契约：确认用户这次想带走什么，并让用户知道可以慢慢说。
@@ -141,4 +143,4 @@ Life Coach 可以使用可选的本地记录层保存用户长期上下文。详
 
 ## Skill 使用
 
-共享会话过程放在根目录 `references/coaching-process.md`，本地记录协议放在 `references/memory-system.md`。详细领域方法放在七个 skills 中。处理具体问题时，先根据路由选择 skill，再按该 skill 的 `SKILL.md` 和 `references/` 执行。
+共享会话过程放在根目录 `references/coaching-process.md`，ACT 底层操作参考放在 `references/act-core.md`，本地记录协议放在 `references/memory-system.md`。详细领域方法放在七个 skills 中。处理具体问题时，先根据路由选择 skill，再按该 skill 的 `SKILL.md` 和 `references/` 执行。
